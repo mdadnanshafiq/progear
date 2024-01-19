@@ -1,0 +1,106 @@
+/* media query for tabs */
+
+
+@media screen and (min-width:700px) and (max-width:980px) {
+    /* header styles */
+
+    .header2-title {
+        font-size: 2rem;
+    }
+
+    .burger,
+    .cart {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    /* banner styles */
+
+    .banner-content {
+        width: 30rem;
+        font-size: 1rem;
+    }
+
+    .banner-content h1 {
+        font-size: 2rem;
+    }
+
+    .banner-img {
+        width: 20rem;
+        height: 20rem;
+        position: relative;
+    }
+
+    /* ecom styles */
+
+    .ecom {
+        width: 36rem;
+    }
+
+    .ecom .ecom-img {
+        height: 3rem;
+        width: 7rem;
+    }
+    /* collection styles */
+
+    .collection{
+        margin-bottom: 6rem;
+    }
+
+    .collection-container{
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    
+
+    .collection .item {
+        flex-basis: 33.5%;
+    }
+
+
+    /* features styles */
+
+    .featured {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 0 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .featured-view {
+        width: 50vw;
+        height: fit-content;
+    }
+
+    .featured-title {
+        text-align: left;
+    }
+
+    .featured-describe {
+        text-align: left;
+    }
+
+    .featured-btn {
+        margin: 0 auto auto 0;
+
+    }
+
+    .featured-content{
+        margin: auto;
+    }
+
+    .featured-view img {
+        margin: auto;
+    }
+
+    /* footer styles */
+
+    .footer-title {
+        font-size: 1.5rem;
+    }
+
+    
+}
