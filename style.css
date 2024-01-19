@@ -16,7 +16,10 @@
 a {
     text-decoration: none;
     color: black;
+    
 }
+
+
 
 /* header styles */
 .header1 {
@@ -102,6 +105,10 @@ a {
 }
 
 /* ecom styles */
+
+hr{
+    display: none;
+}
 
 .ecom {
     width: 22.5rem;
@@ -213,11 +220,14 @@ a {
 }
 
 .collection .see-more {
-    width: 20.5625rem;
+    width: fit-content;
     color: rgba(224, 44, 109, 0.87);
     font-family: 'Poppins';
     font-weight: 700;
     text-align: right;
+    background: none;
+    border: none;
+    
 }
 
 /* features styles */
@@ -326,4 +336,8 @@ footer {
     align-items: center;
     border-radius: 50%;
     
+}
+
+.social span a{
+    color: #FFF;
 }

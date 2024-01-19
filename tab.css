@@ -59,6 +59,9 @@
         flex-basis: 33.5%;
     }
 
+    .collection .see-more{
+        font-size: 1.2rem;
+    }
 
     /* features styles */
 
